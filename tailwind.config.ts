@@ -18,7 +18,7 @@ const config: Config = {
       'logo-blue' : '#003594',
       'black': '#000000',
       'gray': '#3f3f3f',
-      'white': '#e8e6e6'
+      'white': '#FFFFFF'
     },
   },
 },

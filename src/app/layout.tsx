@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/header";
-import { Home } from "./src/app/page.tsx";
-
 
 
 const lato = Lato({
