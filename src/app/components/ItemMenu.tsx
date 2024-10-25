@@ -4,7 +4,7 @@ type Props = {
 }
 export function ItemMenu({name, textColor = 'text-white'} : Props) {
     return (
-        <button className="hover:bg-light-blue flex items-center rounded">
+        <button className="hover:bg-light-blue flex focus:ring-logo-blue py-2 px-4 items-center rounded">
             <span className={textColor}>
                 {name}
             </span>

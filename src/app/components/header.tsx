@@ -5,38 +5,46 @@ import { ItemMenu} from "./ItemMenu";
 export function Header() {
     return (
         <>
-        <header className="flex w-full items-center h-10 bg-logo-blue">
-            <div className=" w-full  max-w-[1246px] px-[15px] mx-auto font-bold">
-                <div>
-                    <div className="flex justify-center">
-                        <ul className="flex items-center gap-80">
+        <header className="flex w-full items-center h-[56px] bg-logo-blue">
+            <div className="w-full px-[6px] max-w-[1500px] font-bold mx-auto">
+                <div className="flex flex-1 item-center justify-between ">
+                    <div className="items-center gap-14">
+                        <ul className="flex items-center gap-14">
                         <li>
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
                             />
                         </li>
-                        <li className="">
+                        <li>
                             <ItemMenu
                             name="+44 (0) 7535 315338"
                             />
                         </li>
-                        <li>
-                            <ItemMenu
-                            name="Get a quote!"
-                            />
-                        </li>
                         </ul>
+                    </div>
+                <div className="flex items-center gap-4">
+                    <span className="border-0 border-transparent bg-white">
+                        <ItemMenu
+                        name="Get a quote!"
+                        textColor="text-logo-blue"
+                        />
+                    </span>
                     </div>
                 </div>
             </div>
         </header>
-        <header className="flex items-center relative w-full h-40 font-bold bg-white border-radius">
-                <div className="w-full inline-flex items-center h-40">
-                    <Image className="absolute translate-x-[47.8rem] h-40 w-60"
+        <header className="flex items-center px-4 w-full h-40 font-bold bg-white">
+                <div className="justify-center container w-[50%] flex h-40">
+                    <div className="max-w-[268px]  w-[800px] ">
+                    <Image
                         src={Logo}
                         alt="Logo"
                     />
-                        <ul className=" flex mx-auto justify-center items-center gap-20">
+                    </div>
+                </div>
+                    <div className="flex h-40 container justify-evenly max-w-[30%] items-center">
+                        <div className="flex items-center">
+                        <ul className=" flex gap-20">
                             <li>
                                 <ItemMenu
                                 name="Home" textColor="text-logo-blue"
@@ -58,6 +66,7 @@ export function Header() {
                                 />
                             </li>
                         </ul>
+                        </div>
                     </div>
             </header>
             </>

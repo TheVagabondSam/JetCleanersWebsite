@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-      'imgBackground': "url('../app/assets/lady-background.png')",
+      'imgBackground': "url('../app/assets/pressurewasher.webp')",
       },
       colors: {
       'dark-blue': '#071156',
