@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "/src/app/assets/Logo.png"
+import Logo from "/src/app/assets/whitelogo.png"
 import { ItemMenu} from "./ItemMenu";
 
 export function Header() {
@@ -72,14 +72,3 @@ export function Header() {
             </>
     )
 }
-
-//Fundo na cor do logo e cor em branco.
-//Retirar One off or regular, Size If known
-//Retirar Windows
-//Retirar Highest floor e Acess to Area.
-//Retirar Entrar em contato na pagina principal.
-//Tirar fotos da primeira pagina.
-//Reviving your outdoor spaces
-//We are a professional exterior cleaning company. 
-//Customers satisfaction guaranteed 
-//Scroll down that vanishes after the user follows the command.
