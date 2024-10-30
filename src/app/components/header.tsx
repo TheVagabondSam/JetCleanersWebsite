@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Logo from "/src/app/assets/whitelogo.png"
-import { ItemMenu} from "./ItemMenu";
+import { ItemMenu } from "./ItemMenu";
 
 export function Header() {
     return (
@@ -33,9 +33,9 @@ export function Header() {
                 </div>
             </div>
         </header>
-        <header className="flex items-center px-4 w-full h-40 font-bold bg-white">
-                <div className="justify-center container w-[50%] flex h-40">
-                    <div className="max-w-[268px]  w-[800px] ">
+        <header className="flex items-center px-4 w-full h-32 font-bold bg-white">
+                <div className="justify-center container w-[50%] flex h-32">
+                    <div className="max-w-[220px]  w-[800px] ">
                     <Image
                         src={Logo}
                         alt="Logo"
