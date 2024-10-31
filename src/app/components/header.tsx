@@ -6,8 +6,8 @@ export function Header() {
     return (
         <>
         <header className="flex w-full items-center h-[56px] bg-logo-blue">
-            <div className="w-full px-[6px] max-w-[1500px] font-bold mx-auto">
-                <div className="flex flex-1 item-center justify-between ">
+            <div className="w-full max-w-[60%] font-bold mx-auto">
+                <div className="flex item-center justify-between ">
                     <div className="items-center gap-14">
                         <ul className="flex items-center gap-14">
                         <li>
@@ -34,7 +34,7 @@ export function Header() {
             </div>
         </header>
         <header className="flex items-center px-4 w-full h-32 font-bold bg-white">
-                <div className="justify-center container w-[50%] flex h-32">
+                <div className="justify-center container w-[46%] flex h-32">
                     <div className="max-w-[220px]  w-[800px] ">
                     <Image
                         src={Logo}

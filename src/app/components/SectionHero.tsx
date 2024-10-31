@@ -1,7 +1,7 @@
 export function SectionHero() {
     return(
         <section className="h-[180px] flex w-[100%] items-center justify-center">
-            <div className="flex w-[45%] items-center justify-center px-4 py-4 relative">
+            <div className="flex w-[60%] items-center justify-center px-4 py-4 relative">
                 <p className="text-lg leading-relaxed w-full absolute px-4 py-4 text-logo-blue">
                 We are a small business based in Battersea, London. 
                 All of our services are guaranteed to be done with the utmost care
