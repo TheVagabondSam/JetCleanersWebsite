@@ -4,10 +4,10 @@ export function BackGroundImg() {
     return (
         <div className="flex px-4 space-x-4 h-screen">
         <div className=" border-white bg-imgBackground bg-cover bg-center min-h-screen z-0 w-1/2">
-        <span className="z-1 text-white flex text-8xl items-center justify-center w-[120%] h-[75%] min-h-[45%]"> 
+        <span className="z-1 text-white flex text-8xl items-center justify-center ml-40 w-[100%] h-[75%] min-h-[45%]"> 
             Placeholder
         </span>
-        <span className="h-[25%] w-[100%] flex z-1 text-white align-items-bottom text-5xl justify-center ">
+        <span className="h-[25%] w-[100%] flex z-1 text-white align-items-bottom ml-10 text-5xl justify-center ">
             Placeholder
         </span>
         </div>

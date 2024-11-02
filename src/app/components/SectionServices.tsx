@@ -3,118 +3,118 @@ import placeholder  from "/src/app/assets/placeholder.png"
 
 export function SectionServices() {
     return(
-        <div className="flex flex-col items-center h-full w-full space-y-8">
+        <div className="flex flex-col h-full w-full">
             <div className="items-center w-full h-full">
-                    <p className="font-bold text-7xl w-full flex  px-16 h-40">
+                    <p className="font-bold text-7xl w-[61.5%] justify-center text-slate-700 flex h-40">
                     Our Services
                     </p>
-                    <div className="grid grid-cols-3 gap-8 h-screen w-full px-16">
+                    <div className="grid rounded-md mx-auto max-w-[1170px] grid-cols-3 gap-3 place-items-center h-full w-[100%]">
                         <div className="flex flex-col">
-                        <Image className="pb-2"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-2"
+                        <Image className="border-2 border-slate-800"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="">
-                        This is cash cleaning
+                        <p className="pt-2 ">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-2"
+                        <Image className="border-2 border-black"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                         <div className="flex flex-col">
-                        <Image className="pb-1"
+                        <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pb-2">
-                        This is cash cleaning
+                        <p className="pt-2">
+                        This is JetCleaner
                         </p>
                         </div>
                     </div>

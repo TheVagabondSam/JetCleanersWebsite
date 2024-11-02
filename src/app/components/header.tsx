@@ -22,7 +22,7 @@ export function Header() {
                         </li>
                         </ul>
                     </div>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center mr-10">
                     <span className="border-0 border-transparent bg-white">
                         <ItemMenu
                         name="Get a quote!"
@@ -33,18 +33,18 @@ export function Header() {
                 </div>
             </div>
         </header>
-        <header className="flex items-center px-4 w-full h-32 font-bold bg-white">
-                <div className="justify-center container w-[46%] flex h-32">
-                    <div className="max-w-[220px]  w-[800px] ">
+        <header className="flex items-center w-full px-4 h-32 font-bold bg-white">
+                <div className="justify-center container w-[49%] flex h-32">
+                    <div className="max-w-[220px] w-[800px] ">
                     <Image
                         src={Logo}
                         alt="Logo"
                     />
                     </div>
                 </div>
-                    <div className="flex h-40 container justify-evenly max-w-[30%] items-center">
+                    <div className="flex h-40 container justify-evenly max-w-[32%] items-center">
                         <div className="flex items-center">
-                        <ul className=" flex gap-20">
+                        <ul className=" flex gap-20 mr-8">
                             <li>
                                 <ItemMenu
                                 name="Home" textColor="text-logo-blue"

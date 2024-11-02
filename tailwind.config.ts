@@ -13,6 +13,7 @@ const config: Config = {
       'imgBackground': "url('../app/assets/pressurewasher.webp')",
       },
       colors: {
+      'light-gray': '#d3d3d3',
       'dark-blue': '#071156',
       'light-blue': '#29b0e7',
       'logo-blue' : '#003594',
