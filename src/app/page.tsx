@@ -4,6 +4,8 @@ import { SectionHero } from "./components/SectionHero";
 import { Line } from "./components/Line";
 import { SectionServices } from "./components/SectionServices"
 import { SectionWhychoose } from "./components/SectionWhychoose"
+import { StraightLine } from "./components/StraightLine"
+import { SectionBottom } from "./components/SectionBottom"
 
 
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
             <Line />
             <SectionServices />
             <SectionWhychoose />
+            <StraightLine />
+            <SectionBottom />
         </div>
     )
 }

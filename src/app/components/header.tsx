@@ -7,7 +7,7 @@ export function Header() {
         <>
         <header className="flex w-full items-center h-[56px] bg-logo-blue">
             <div className="w-full max-w-[60%] font-bold mx-auto">
-                <div className="flex item-center justify-between ">
+                <div className="flex item-center justify-between">
                     <div className="items-center gap-14">
                         <ul className="flex items-center gap-14">
                         <li>

@@ -11,12 +11,12 @@ export function SectionWhychoose () {
             Why Choose Jetcleaners?
             </h2>
             <div className="grid w-[100%] place-items-center gap-2 grid-cols-3 pt-10 px-4">
-                <div className="flex flex-col items-center">
-                    <Image className="object-contain place-self-end  h-20"
+                <div className="flex flex-col items-center w-[54%]">
+                    <Image className="object-contain place-self-end h-20"
                     src={insured}
                     alt='insured'
                     />
-                    <span>
+                    <span className="mt-2 text-right w-[97%]">
                         Placeholder
                     </span>
                 </div>
@@ -25,7 +25,7 @@ export function SectionWhychoose () {
                     src={staff}
                     alt='staff'
                     />
-                    <span>
+                    <span className="mt-2 text-right w-[97%]">
                         Placeholder
                     </span>
                 </div>
@@ -34,7 +34,7 @@ export function SectionWhychoose () {
                     src={fast}
                     alt='fast'
                     />
-                    <span>
+                    <span className="mt-2 text-right w-[97%]">
                         Placeholder
                     </span>
                 </div>
