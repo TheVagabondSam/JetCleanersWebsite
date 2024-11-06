@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Insta from "/src/app/assets/insta.svg"
-import Face from "/src/app/assets/face.svg"
+import Insta from "/src/app/assets/insta.png"
+import Face from "/src/app/assets/face.png"
 import Whatapp from "/src/app/assets/Whatapp.jpeg"
 import Logo from "/src/app/assets/whitelogo.png"
 
