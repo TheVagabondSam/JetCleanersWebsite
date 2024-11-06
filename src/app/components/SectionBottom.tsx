@@ -3,7 +3,7 @@ import Insta from "/src/app/assets/insta.svg"
 import Face from "/src/app/assets/face.svg"
 import Whatapp from "/src/app/assets/Whatapp.jpeg"
 import Logo from "/src/app/assets/whitelogo.png"
-import { Container } from "./Container"
+
 
 export function SectionBottom (){
     return(
