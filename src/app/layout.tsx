@@ -4,9 +4,6 @@ import "./globals.css";
 import { Header } from "./components/header";
 import { BackGroundImg } from "./components/backGroundImage";
 
-
-
-
 const lato = Lato({
   subsets: ['latin'],
   weight: ['400','700']

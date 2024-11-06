@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Insta from "/src/app/assets/insta.png"
-import Face from "/src/app/assets/face.png"
-import Whatapp from "/src/app/assets/Whatapp.jpeg"
-import Logo from "/src/app/assets/whitelogo.png"
+import Insta from "/src/app/assets/Insta.png";
+import Face from "/src/app/assets/Face.png";
+import Whatapp from "/src/app/assets/Whatapp.jpeg";
+import Logo from "/src/app/assets/whitelogo.png";
 
 
 export function SectionBottom (){

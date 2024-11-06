@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "/src/app/assets/whitelogo.png"
+import Logo from "/src/app/assets/whitelogo.png";
 import { ItemMenu } from "./ItemMenu";
 
 export function Header() {
