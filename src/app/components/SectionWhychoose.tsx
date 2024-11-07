@@ -6,8 +6,8 @@ import fast from "/src/app/assets/fast.png"
 export function SectionWhychoose () {
     return(
         <div className="flex h-80 pt-20 w-full">
-            <div className="flex flex-col h-60 w-full bg-light-gray">
-            <h2 className="font-bold text-5xl  pt-10 w-[59.5%] grid text-black mx-auto ">
+            <div className="flex flex-col h-72 w-full bg-light-gray">
+            <h2 className="font-bold text-5xl  pt-10 w-[59.5%] grid text-dark-blue mx-auto ">
             Why Choose Jetcleaners?
             </h2>
             <div className="grid w-full place-items-center gap-8 grid-cols-3 pt-10 px-12">

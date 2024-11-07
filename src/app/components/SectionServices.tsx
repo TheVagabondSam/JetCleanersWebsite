@@ -5,34 +5,16 @@ export function SectionServices() {
     return(
         <div className="flex flex-col h-full w-full">
             <div className="items-center w-full h-full">
-                    <p className="font-bold text-7xl w-[61.5%] justify-center text-slate-700 flex h-40">
+                    <p className="font-bold text-5xl flex  max-w-[59.5%] mx-auto w-full text-dark-blue h-36">
                     Our Services
                     </p>
-                    <div className="grid rounded-md mx-auto max-w-[1170px] grid-cols-3 gap-3 place-items-center h-full w-[100%]">
+                    <div className="grid rounded-md mx-auto max-w-[1192px] grid-cols-3 gap-8 place-items-center h-full w-[100%]">
                         <div className="flex flex-col">
                         <Image className="border-2 border-logo-blue"
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
-                        This is JetCleaner
-                        </p>
-                        </div>
-                        <div className="flex flex-col">
-                        <Image className="border-2 border-slate-800"
-                        src={placeholder}
-                        alt="placeholder"
-                        />
-                        <p className="pt-2 ">
-                        This is JetCleaner
-                        </p>
-                        </div>
-                        <div className="flex flex-col">
-                        <Image className="border-2 border-black"
-                        src={placeholder}
-                        alt="placeholder"
-                        />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -41,7 +23,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -50,7 +32,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -59,7 +41,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -68,7 +50,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -77,7 +59,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -86,7 +68,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -95,7 +77,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -104,7 +86,7 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
@@ -113,7 +95,25 @@ export function SectionServices() {
                         src={placeholder}
                         alt="placeholder"
                         />
-                        <p className="pt-2">
+                        <p className="pt-2 pb-2">
+                        This is JetCleaner
+                        </p>
+                        </div>
+                        <div className="flex flex-col">
+                        <Image className="border-2 border-logo-blue"
+                        src={placeholder}
+                        alt="placeholder"
+                        />
+                        <p className="pt-2 pb-2">
+                        This is JetCleaner
+                        </p>
+                        </div>
+                        <div className="flex flex-col">
+                        <Image className="border-2 border-logo-blue"
+                        src={placeholder}
+                        alt="placeholder"
+                        />
+                        <p className="pt-2 pb-2">
                         This is JetCleaner
                         </p>
                         </div>
