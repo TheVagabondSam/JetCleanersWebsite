@@ -11,6 +11,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
       'imgBackground': "url('../app/assets/pressurewasher.webp')",
+      'imgBackground2': "url('../app/assets/lady-background.png')",
       },
       colors: {
       'light-gray': '#d3d3d3',

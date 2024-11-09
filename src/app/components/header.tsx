@@ -13,6 +13,7 @@ export function Header() {
                         <li>
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
+                            href="Jetcleaners.queries@outlook.com"
                             />
                         </li>
                         <li>
@@ -23,10 +24,11 @@ export function Header() {
                         </ul>
                     </div>
                 <div className="flex items-center mr-10">
-                    <span className="border-0 border-transparent bg-white">
+                    <span className="border-0 rounded border-transparent bg-white">
                         <ItemMenu
                         name="Get a quote!"
                         textColor="text-logo-blue"
+                        href="/"
                         />
                     </span>
                     </div>
@@ -48,21 +50,25 @@ export function Header() {
                             <li>
                                 <ItemMenu
                                 name="Home" textColor="text-logo-blue"
+                                href="/"
                                 />
                             </li>
                             <li>
                                 <ItemMenu 
                                 name="About us" textColor="text-logo-blue"
+                                href="/"
                                 />
                             </li>
                             <li>
                                 <ItemMenu
                                 name="Services" textColor="text-logo-blue"
+                                href="/servicesPage"
                                 />
                             </li>
                             <li>
                                 <ItemMenu 
                                 name="Contact" textColor="text-logo-blue"
+                                href="/"
                                 />
                             </li>
                         </ul>

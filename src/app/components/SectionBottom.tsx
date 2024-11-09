@@ -16,8 +16,8 @@ export function SectionBottom (){
                         alt="Logo"
                     />
                 </div>
-                <div className="flex flex-col h-[100%] justify-start items-center w-full px-4 gap-4 mt-16">
-                    <div className="flex w-full h-auto justify-center items-center gap-4">
+                <div className="flex flex-col h-[100%] w-full px-4 gap-4 mt-6">
+                    <div className="flex w-full justify-center  items-center gap-4 h-[100%]">
                         <a href="https://www.instagram.com/jetcleanersltd/?utm_source=qr" target="_blank" rel="noopener noreferrer">
                             <Image className="w-12"
                             src={Insta}
@@ -43,13 +43,9 @@ export function SectionBottom (){
                             />
                         </a>
                     </div>
-                    <span className="mt-1 font-bold text-center text-logo-blue items-center">
-                        Our Socials
-                    </span>
                 </div>
-                <div className="grid grid-cols-2 items-start gap-4 w-full h-full place-self-center mt-20">
-                    <div className="items-center flex flex-col px-4 gap-4 w-full h-full">
-                    <ul className="items-center w-full text-center">
+                <div className="text-center flex gap-4 w-full  h-full px-4  mt-10">
+                    <ul className=" items-start flex flex-col w-full text-center min-h-[184px]">
                         <li className="font-bold flex text-2xl mt-4">
                             <h1 className="py-2 px-4 items-center">
                                 Services
@@ -69,10 +65,9 @@ export function SectionBottom (){
                             
                         </li>
                     </ul>
-                    </div>
                 </div>
-                <div className="items-center flex flex-col px-4 gap-4 w-full h-full">
-                        <ul className="items-center w-full flex-col  text-center">
+                <div className="text-center flex px-4 gap-4 w-full mt-10 h-full">
+                        <ul className="items-start flex flex-col w-full text-center">
                             <li className="font-bold flex text-2xl mt-4">
                             <h1 className="py-2 px-4 items-center">
                                 Legal
