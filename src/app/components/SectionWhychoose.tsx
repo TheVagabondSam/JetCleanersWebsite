@@ -1,7 +1,4 @@
 import Image from "next/image";
-import insured from "/src/app/assets/insured.png"
-import staff from "/src/app/assets/staff.png"
-import fast from "/src/app/assets/fast.png"
 
 export function SectionWhychoose () {
     return(
@@ -13,7 +10,9 @@ export function SectionWhychoose () {
             <div className="grid w-full place-items-center gap-8 grid-cols-3 pt-10 px-12">
                 <div className="flex flex-col items-center ml-auto">
                     <Image className="object-contain h-20"
-                    src={insured}
+                    src="/assets/insured.png"
+                    width={100}
+                    height={100}
                     alt='insured'
                     />
                     <span className="text-center mt-2">
@@ -22,8 +21,10 @@ export function SectionWhychoose () {
                 </div>
                 <div className="flex flex-col items-center">
                     <Image className="object-contain h-20"
-                    src={staff}
+                    src="/assets/staff.png"
                     alt='staff'
+                    width={100}
+                    height={100}
                     />
                     <span className="text-center mt-2">
                         Placeholder
@@ -31,8 +32,10 @@ export function SectionWhychoose () {
                 </div>
                 <div className="flex flex-col items-center mr-auto">
                     <Image className="h-20 object-contain"
-                    src={fast}
+                    src="/assets/fast.png"
                     alt='fast'
+                    width={100}
+                    height={100}
                     />
                     <span className="text-center mt-2">
                         Placeholder

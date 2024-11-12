@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Logo from "/src/app/assets/whitelogo.png";
 import { ItemMenu } from "./ItemMenu";
 
 export function Header() {
@@ -13,7 +12,7 @@ export function Header() {
                         <li>
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
-                            href="Jetcleaners.queries@outlook.com"
+                            href="/"
                             />
                         </li>
                         <li>
@@ -37,9 +36,12 @@ export function Header() {
         </header>
         <header className="flex items-center w-full px-4 h-32 font-bold bg-white">
                 <div className="justify-center container w-[49%] flex h-32">
-                    <div className="max-w-[220px] w-[800px] ">
+                    <div className="max-w-[200px] w-[800px] ">
                     <Image
-                        src={Logo}
+                        src="/assets/Whitelogo.png"
+                        width={100}
+                        height={100}
+                        layout="responsive"
                         alt="Logo"
                     />
                     </div>
@@ -62,7 +64,7 @@ export function Header() {
                             <li>
                                 <ItemMenu
                                 name="Services" textColor="text-logo-blue"
-                                href="/servicesPage"
+                                href= "/servicesPage/page"
                                 />
                             </li>
                             <li>

@@ -10,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-      'imgBackground': "url('../app/assets/pressurewasher.webp')",
-      'imgBackground2': "url('../app/assets/lady-background.png')",
+      'imgBackground': "url('/assets/pressurewasher.webp')",
+      'imgBackground2': "url('/assets/lady.png')",
       },
       colors: {
       'light-gray': '#d3d3d3',

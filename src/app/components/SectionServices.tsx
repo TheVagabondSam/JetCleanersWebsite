@@ -1,5 +1,5 @@
 import Image from "next/image";
-import placeholder  from "/src/app/assets/placeholder.png"
+import placeholder  from "/assets/placeholder.png"
 
 export function SectionServices() {
     return(
