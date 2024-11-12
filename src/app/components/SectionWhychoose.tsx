@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Insured from "/public/assets/Insured.png"
+import Insured from "/public/assets/insured.png"
 import staff from "/public/assets/staff.png"
 import fast from "/public/assets/fast.png"
 
