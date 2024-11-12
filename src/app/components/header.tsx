@@ -64,7 +64,7 @@ export function Header() {
                             <li>
                                 <ItemMenu
                                 name="Services" textColor="text-logo-blue"
-                                href= "/servicesPage/page"
+                                href= "/servicesPage"
                                 />
                             </li>
                             <li>

@@ -2,7 +2,7 @@
 export function BackGroundImg() {
     return (
         <div className="flex px-4 space-x-4 h-screen">
-            <div className="`border-white bg-cover bg-center bg-imgBackground min-h-screen z-0 w-1/2">
+            <div className="border-white bg-cover bg-center bg-imgBackground min-h-screen z-0 w-1/2">
                 <span className="z-1 text-white flex text-8xl items-center justify-center ml-40 w-[100%] h-[75%] min-h-[45%]"> 
                     Placeholder
                 </span>
@@ -18,7 +18,7 @@ export function BackGroundImg() {
 export function BackGroundImg2() {
     return (
         <div className="flex px-4 space-x-4 h-screen">
-            <div className="`border-white bg-cover bg-center bg-imgBackground2 min-h-screen z-0 w-1/2">
+            <div className="border-white bg-cover bg-center bg-imgBackground2 min-h-screen z-0 w-1/2">
                 <span className="z-1 text-white flex text-8xl items-center justify-center ml-40 w-[100%] h-[75%] min-h-[45%]"> 
                     Placeholder
                 </span>
