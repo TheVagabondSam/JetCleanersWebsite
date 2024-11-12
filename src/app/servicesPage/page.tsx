@@ -1,5 +1,4 @@
 
-import { SectionHero } from "../components/SectionHero";
 import { Line } from "../components/Line";
 import { BackGroundImg2 } from "../components/backGroundImage";
 
