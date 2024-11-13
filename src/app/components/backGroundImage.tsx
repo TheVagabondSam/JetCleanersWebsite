@@ -31,3 +31,37 @@ export function BackGroundImg2() {
         </div>
     );
 };
+
+export function BackGroundImg3() {
+    return (
+        <div className="flex px-4 space-x-4 h-screen">
+            <div className="border-white bg-cover bg-center bg-imgBackground3 min-h-screen z-0 w-1/2">
+                <span className="z-1 text-white flex text-8xl items-center justify-center ml-40 w-[100%] h-[75%] min-h-[45%]"> 
+                    Placeholder
+                </span>
+                <span className="h-[25%] w-[100%] flex z-1 text-white align-items-bottom ml-10 text-5xl justify-center ">
+                    Placeholder
+                </span>
+                </div>
+                <div className="px-4 border-white bg-imgBackground3 bg-cover bg-center min-h-screen w-1/2">
+            </div>
+        </div>
+    );
+};
+
+export function BackgroundImg4() {
+    return (
+        <div className=" flex px-4 h-96 w-[100%]">
+            <div className="border-white bg-cover bg-center bg-imgBackground4 max-h-[35%] z-0 w-full">
+                <div className="border-white w-full  flex flex-col h-[100%]">
+                <h1 className="z-10 text-white flex text-6xl items-center w[100%] h-[80%] justify-center">
+                    Contact us
+                </h1>
+                <h3 className="z-1 text-white flex text-2xl items-center mb-4 w[100%] h-auto justify-center">
+                    Get in Touch
+                </h3>
+                </div>
+            </div>
+        </div>
+    )
+}

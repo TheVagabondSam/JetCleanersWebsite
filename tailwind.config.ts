@@ -11,7 +11,9 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'imgBackground': "url('/assets/pressurewasher.webp')",
-        'imgBackground2': "url('/assets/lady.png')",     
+        'imgBackground2': "url('/assets/lady.png')", 
+        'imgBackground3': "url('/assets/What.svg')",
+        'imgBackground4': "url('/assets/Contact.svg')" 
       },
       colors: {
       'light-gray': '#d3d3d3',

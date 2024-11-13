@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ItemMenu } from "./ItemMenu";
+import Logo from "/public/assets/whitelogo.png"
 
 export function Header() {
     return (
@@ -18,6 +19,7 @@ export function Header() {
                         <li>
                             <ItemMenu
                             name="+44 (0) 7535 315338"
+                            href="https://wa.me/4407535315338"
                             />
                         </li>
                         </ul>
@@ -27,7 +29,7 @@ export function Header() {
                         <ItemMenu
                         name="Get a quote!"
                         textColor="text-logo-blue"
-                        href="/"
+                        href="/ContactUsPage"
                         />
                     </span>
                     </div>
@@ -38,9 +40,7 @@ export function Header() {
                 <div className="justify-center container w-[49%] flex h-32">
                     <div className="max-w-[200px] w-[800px] ">
                     <Image
-                        src="/assets/Whitelogo.png"
-                        width={100}
-                        height={100}
+                        src={Logo}
                         layout="responsive"
                         alt="Logo"
                     />
@@ -58,7 +58,7 @@ export function Header() {
                             <li>
                                 <ItemMenu 
                                 name="About us" textColor="text-logo-blue"
-                                href="/"
+                                href="/AboutUsPage"
                                 />
                             </li>
                             <li>
@@ -70,7 +70,7 @@ export function Header() {
                             <li>
                                 <ItemMenu 
                                 name="Contact" textColor="text-logo-blue"
-                                href="/"
+                                href="/ContactUsPage"
                                 />
                             </li>
                         </ul>
