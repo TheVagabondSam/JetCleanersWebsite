@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { ItemMenu } from "./ItemMenu";
-import Logo from "./assets/whitelogo.png"
+import Logo from "/public/assets/whitelogo.png"
 
 
 export function SectionBottom (){
