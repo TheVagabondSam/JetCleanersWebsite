@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ItemMenu } from "./ItemMenu";
+import Logo from "./assets/whitelogo.png"
 
 
 export function SectionBottom (){
@@ -8,11 +9,9 @@ export function SectionBottom (){
             <div className="grid grid-cols-4 gap-4 w-full h-[100%] justify-between px-20 mx-20 mt-4">
                 <div className="flex justify-end w-full items-center h-full gap-4">
                     <Image className="max-w-[260px] h-auto"
-                        src="/assets/Whitelogo.png"
+                        src={Logo}
                         alt="Logo"
                         layout="responsive"
-                        width={100}
-                        height={100}
                     />
                 </div>
                 <div className="flex flex-col h-[100%] w-full px-4 gap-4 mt-6">
