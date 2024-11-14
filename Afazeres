@@ -1,0 +1,23 @@
+/*
+Eliminar Residential and Commercial services, change to Our Services.
+
+Retirar: 
+Number of Windows.
+Highest Floor
+
+
+Required Informations like it is already.
+
+
+
+
+Modificar: Company(If Applicable)
+Services required: Add Something else in case Sam wants to do it.
+In case the user selects Something else, Its required to leave a message.
+Drop down to Message box when user selects Something else.
+Logo em direcao as perguntas do Contact, sendo que ela precisa estar posicionado horizontalmente(Sem text)
+
+Services gotta be a dropdown only.
+Header and SectionBottom Logo should be animate-pulse, 1 pulse only then stop in the position.
+
+*/

@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'slow-pulse': 'pulse 5s cubic-bezier(0.4, 0, 0.6, 1) 3',
+      },
       backgroundImage: {
         'imgBackground': "url('/assets/pressurewasher.webp')",
         'imgBackground2': "url('/assets/lady.png')", 

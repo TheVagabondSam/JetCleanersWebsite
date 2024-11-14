@@ -5,11 +5,9 @@ import Logo from "/public/assets/whitelogo.png"
 export function Header() {
     return (
         <>
-        <header className="flex w-full items-center h-[56px] bg-logo-blue">
-            <div className="w-full max-w-[60%] font-bold mx-auto">
-                <div className="flex item-center justify-between">
-                    <div className="items-center gap-14">
-                        <ul className="flex items-center gap-14">
+        <header className="flex w-full h-[112px] min-w-full  items-center min-h[56px] sm:h-[56px] bg-logo-blue">
+            <div className="w-full flex items-center text-center h-full">
+                <ul className="whitespace-nowrap grid sm:flex justify- items-center text-center w-[100%] h-full text-xs sm:text-lg mx-1 ">
                         <li>
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
@@ -23,9 +21,9 @@ export function Header() {
                             />
                         </li>
                         </ul>
-                    </div>
-                <div className="flex items-center mr-10">
-                    <span className="border-0 rounded border-transparent bg-white">
+                <div className="text-center flex items-center justify-start  pt-1 sm:w-full max-w-[600px] h-[56px]">
+                    <div className="flex items-center text-center  h-full">
+                    <span className="flex bg-white text-logo-blue  whitespace-nowrap font-bold rounded-lg mx-2 sm:mx-1 ">
                         <ItemMenu
                         name="Get a quote!"
                         textColor="text-logo-blue"
@@ -33,29 +31,24 @@ export function Header() {
                         />
                     </span>
                     </div>
+                    </div>
                 </div>
-            </div>
         </header>
-        <header className="flex items-center w-full px-4 h-32 font-bold bg-white">
-                <div className="justify-center container w-[49%] flex h-32">
-                    <div className="max-w-[200px] w-[800px] ">
-                    <Image
+        <header className="flex items-center text-center w-full h-[120px] font-bold justify-center bg-white">
+                    <div className="w-full flex h-[120px] justify-center items-center">
+                        <Image className="max-w-[180px] w-full min-w[120px] h-[112px] animate-slow-pulse"
                         src={Logo}
                         layout="responsive"
                         alt="Logo"
-                    />
-                    </div>
-                </div>
-                    <div className="flex h-40 container justify-evenly max-w-[32%] items-center">
-                        <div className="flex items-center">
-                        <ul className=" flex gap-20 mr-8">
+                        />
+                        <ul className="flex justify-between px-4 w-[40%]">
                             <li>
                                 <ItemMenu
                                 name="Home" textColor="text-logo-blue"
                                 href="/"
                                 />
                             </li>
-                            <li>
+                            <li className="whitespace-nowrap">
                                 <ItemMenu 
                                 name="About us" textColor="text-logo-blue"
                                 href="/AboutUsPage"
@@ -74,7 +67,6 @@ export function Header() {
                                 />
                             </li>
                         </ul>
-                        </div>
                     </div>
             </header>
             </>
