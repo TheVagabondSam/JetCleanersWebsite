@@ -7,7 +7,7 @@ export function Header() {
         <>
         <header className="flex w-full h-[112px] min-w-full  items-center min-h[56px] sm:h-[56px] bg-logo-blue">
             <div className="w-full flex items-center text-center h-full">
-                <ul className="whitespace-nowrap grid sm:flex justify- items-center text-center w-[100%] h-full text-xs sm:text-lg mx-1 ">
+                <ul className="whitespace-nowrap grid gap-4 sm:flex sm:justify-center justify-start items-center text-center w-[75%] h-full mx-auto text-sm sm:text-lg sm:mx-1 ">
                         <li>
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
@@ -21,9 +21,9 @@ export function Header() {
                             />
                         </li>
                         </ul>
-                <div className="text-center flex items-center justify-start  pt-1 sm:w-full max-w-[600px] h-[56px]">
-                    <div className="flex items-center text-center  h-full">
-                    <span className="flex bg-white text-logo-blue  whitespace-nowrap font-bold rounded-lg mx-2 sm:mx-1 ">
+                <div className="text-center flex items-center pt-1 sm:w-full max-w-[1000px] h-[56px]">
+                    <div className="flex items-center text-center sm:px-4  h-full">
+                    <span className="flex bg-white text-logo-blue justify-center whitespace-nowrap text-lg font-bold rounded-lg mx-2 sm:mx-1 ">
                         <ItemMenu
                         name="Get a quote!"
                         textColor="text-logo-blue"
@@ -34,14 +34,15 @@ export function Header() {
                     </div>
                 </div>
         </header>
-        <header className="flex items-center text-center w-full h-[120px] font-bold justify-center bg-white">
-                    <div className="w-full flex h-[120px] justify-center items-center">
-                        <Image className="max-w-[180px] w-full min-w[120px] h-[112px] animate-slow-pulse"
-                        src={Logo}
-                        layout="responsive"
-                        alt="Logo"
-                        />
-                        <ul className="flex justify-between px-4 w-[40%]">
+        <header className="flex items-center text-center w-[100%] h-[120px] font-bold bg-white ">
+                    <div className="w-full flex md:flex-row  h-[120px] text-sm md:text-lg md:justify-start justify-center items-center mx-auto">
+                        <div className="h-[100%] w-[84%] flex items-center justify-center">
+                            <Image className="w-auto flex h-full object-contain animate-slow-pulse"
+                            src={Logo}
+                            alt="Logo"
+                            />
+                            </div>
+                        <ul className="flex items-center text-center sm:justify-start justify-center sm:gap-10 gap-1 h-[100%] sm:mx-1 w-full px-4">
                             <li>
                                 <ItemMenu
                                 name="Home" textColor="text-logo-blue"
