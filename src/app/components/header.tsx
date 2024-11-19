@@ -13,7 +13,7 @@ export function Header() {
 
     return (
         <>
-        <header className="flex w-full h-[112px] min-w-full  items-center min-h[56px] md:h-[56px] bg-logo-blue">
+        <header className="flex w-full h-[112px] min-w-[100%]  items-center min-h[56px] md:h-[56px] bg-logo-blue">
             <div className="w-full flex items-center text-center justify-center h-full">
                 <ul className="text-nowrap sm:flex flex-grow md:justify-center items-center text-center w-[100%] h-[100%] text-sm sm:text-lg px-2">
                         <li className="flex h-[56px] justify-start items-center">
@@ -30,8 +30,8 @@ export function Header() {
                         </li>
                         </ul>
                 <div className="text-center flex items-center h-[100%] sm:w-[100%] max-w-[1000px]">
-                    <div className="flex items-center text-center sm:px-4 h-[80px]">
-                    <span className="flex md:w-[100%] w-[75%] bg-white text-logo-blue justify-center whitespace-nowrap text-lg font-bold rounded-lg sm:m-1">
+                    <div className="flex items-center text-center sm:px-2 max-w-[180px] h-[80px]">
+                    <span className="flex md:w-[100%] w-[90%] bg-white text-logo-blue whitespace-nowrap text-lg font-bold rounded-lg sm:m-1 ">
                         <ItemMenu
                         name="Get a quote!"
                         textColor="text-logo-blue"
