@@ -3,7 +3,7 @@ import placeholder  from "/public/assets/placeholder.png"
 
 
 export function SectionServices() {
-    const services = [
+    /* const services = [
         { id: 1, text: "This is JetCleaner - Service 1" },
         { id: 2, text: "This is JetCleaner - Service 2" },
         { id: 3, text: "This is JetCleaner - Service 3" },
@@ -17,6 +17,7 @@ export function SectionServices() {
         { id: 11, text: "This is JetCleaner - Service 11" },
         { id: 12, text: "This is JetCleaner - Service 12" },
     ];
+    */ 
 
 
     return(
