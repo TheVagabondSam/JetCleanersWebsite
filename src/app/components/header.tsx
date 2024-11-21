@@ -1,5 +1,5 @@
 'use client';
-import { useState } from "react";
+import React, { useState } from 'react'
 import Image from "next/image";
 import { ItemMenu } from "./ItemMenu";
 import Logo from "/public/assets/whitelogo.png"
@@ -13,25 +13,25 @@ export function Header() {
 
     return (
         <>
-        <header className="flex w-full h-[112px] min-w-[100%]  items-center min-h[56px] md:h-[56px] bg-logo-blue">
+        <header className="flex w-full h-[112px] items-center min-h[4rem] md:h-[4rem] bg-logo-blue">
             <div className="w-full flex items-center text-center justify-center h-full">
-                <ul className="text-nowrap sm:flex flex-grow md:justify-center items-center text-center w-[100%] h-[100%] text-sm sm:text-lg px-2">
-                        <li className="flex h-[56px] justify-start items-center">
+                <ul className="sm:w-[80%] text-nowrap sm:flex flex-grow md:justify-center items-center justify-end text-center w-[100%] h-56px text-sm sm:text-lg p-2">
+                        <li>
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
                             href="/"
                             />
                         </li>
-                        <li className="flex items-center justify-start h-[56px]">
+                        <li>
                             <ItemMenu
                             name="+44 (0) 7535 315338"
                             href="https://wa.me/4407535315338"
                             />
                         </li>
                         </ul>
-                <div className="text-center flex items-center h-[100%] sm:w-[100%] max-w-[1000px]">
-                    <div className="flex items-center text-center sm:px-2 max-w-[180px] h-[80px]">
-                    <span className="flex md:w-[100%] w-[90%] bg-white text-logo-blue whitespace-nowrap text-lg font-bold rounded-lg sm:m-1 ">
+                <div className="sm:text-center text-start flex items-center h-[100%] max-w-5xl sm:w-[100%]">
+                    <div className="flex items-center sm:px-1 max-w-[150px] h-[80px]">
+                    <span className="md:w-full w-[95%] bg-white text-start text-logo-blue whitespace-nowrap sm:text-lg font-bold rounded-lg">
                         <ItemMenu
                         name="Get a quote!"
                         textColor="text-logo-blue"
@@ -61,17 +61,16 @@ export function Header() {
         </button>
 
         <header className="flex items-center text-center w-[100%] h-[120px] font-bold bg-white ">
-                    <div className="w-full flex md:flex-row  h-[120px] md:justify-start justify-center items-center mx-auto">
-                        <div className="h-[100%] w-[84%] flex items-center justify-center">
-                            <Image className="min-w-[250px] min-h-[120px] flex h-full object-contain bg-cover animate-slow-pulse"
+                    <div className="w-full row-span-1 flex h-[120px] items-center">
+                        <div className="h-[100%] w-full max-w-[800px] min-w-[120px] flex items-center justify-center">
+                            <Image className="h-full object-contain bg-cover animate-slow-pulse"
                             src={Logo}
                             alt="Logo"
                             width={200}
                             height={120}
                             />
                             </div>
-                        <ul className=
-                            {`${menuOpen ? "block" : "hidden"} sm:flex sm:items-center sm:justify-start justify-center md:gap-10 sm:gap-1 h-[100%] sm:mx-1 w-full px-4`}
+                        <ul className={`${menuOpen ? "block" : "hidden"} sm:flex sm:items-center md:justify-start items-start justify-center md:gap-8 sm:gap-1 h-[100%] sm:mx-1 w-full px-4`}
                         >
                             <li>
                                 <ItemMenu
