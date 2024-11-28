@@ -19,7 +19,7 @@ export function Header() {
     <div className='w-full h-full relative'>
         <header className="flex flex-row w-full h-[112px] min-w-[375px] justify-between items-center  bg-logo-blue">
             <div className="w-full flex  items-center text-center justify-center mx-auto h-[100%]">
-                <nav className="md:w-[90%] text-nowrap flex flex-col sm:flex sm:flex-row items-center justify-center text-center w-[100%] text-sm sm:text-lg">
+                <nav className="w-full text-nowrap flex flex-col sm:flex sm:flex-row items-center justify-center text-center text-sm sm:text-lg">
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
                             href="/"
@@ -44,7 +44,7 @@ export function Header() {
             </div>
         </header>
             <button
-                className="sm:hidden text-logo-blue p-2 rounded-lg shadow-md bg-gradient-to-r from-blue-300 to-logo-blue hover:from-logo-blue hover:to-cyan-600 transition-all duration-300"
+                className="sm:hidden text-logo-blue p-2  hover:logo-blue transition-all duration-300"
                 onClick={toggleMenu}
             >
                 <svg
@@ -73,7 +73,7 @@ export function Header() {
                 
             </div>
                 <nav
-                    className={`${isOpen ? 'flex' : 'hidden sm:flex'} flex flex-col text-center sm:flex sm:flex-row items-center sm:justify-center justify-start  md:gap-4 lg:gap-6 xl:gap-10 sm:gap-1 h-[100%] w-full `}
+                    className={`${isOpen ? 'hidden' : 'hidden sm:flex'} flex flex-col text-center sm:flex sm:flex-row items-center sm:justify-center justify-start  md:gap-4 lg:gap-6 xl:gap-10 sm:gap-1 h-[100%] w-full `}
                 >
                         <ItemMenu
                             name="Home" textColor="text-logo-blue"
