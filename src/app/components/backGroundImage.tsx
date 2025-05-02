@@ -1,8 +1,8 @@
 
 export function BackGroundImg() {
     return (
-        <div className="flex px-2 space-x-4 h-auto">
-            <div className="border-white bg-cover bg-center bg-imgBackground min-h-screen z-0 w-full h-auto ">
+        <div className="flex px-2 sm:px-8 space-x-4 h-auto">
+            <div className="border-white bg-cover bg-center bg-imgBackground min-h-screen min-w-[350px] z-0 w-full h-auto ">
                 <span className="z-1 text-white flex   text-3xl md:text-4xl xl:text-8xl items-center  w-[100%] h-[75%]"> 
                     Placeholder
                 </span>

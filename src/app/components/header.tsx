@@ -16,10 +16,10 @@ export function Header() {
 
     return (
     <>
-    <div className='w-full h-full relative'>
-        <header className="flex flex-row w-full h-[112px] min-w-[375px] justify-between items-center  bg-logo-blue">
-            <div className="w-full flex  items-center text-center justify-center mx-auto h-[100%]">
-                <nav className="w-full text-nowrap flex flex-col sm:flex sm:flex-row items-center justify-center text-center text-sm sm:text-lg">
+    <div className='w-full h-full'>
+        <header className="flex flex-row w-full h-[112px] min-w-[300px] justify-between items-center  bg-logo-blue">
+            <div className="w-full flex items-center text-center sm:justify-center justify-start  h-[100%]">
+                <nav className="w-full max-w-[60%] text-nowrap flex flex-col md:flex md:flex-row items-center justify-center text-center text-[10px] sm:text-lg">
                             <ItemMenu
                             name="Jetcleaners.queries@outlook.com"
                             href="/"
@@ -29,9 +29,9 @@ export function Header() {
                             href="https://wa.me/4407535315338"
                             />
                 </nav>
-                <div className="sm:text-center text-start flex items-center justify-center h-[100%] sm:w-[100%]">
+                <div className="sm:text-center text-start flex flex-row items-center justify-center h-[100%] sm:w-[100%]">
                     <div className="flex items-center sm:px-0 px-1 max-w-[140px] md:-ml-6 sm:min-w-[140px] h-[100%]">
-                        <nav className="md:w-full  h-auto w-[90%] bg-white text-start text-logo-blue whitespace-nowrap sm:text-lg font-bold rounded-lg">
+                        <nav className="w-full h-auto bg-white text-start text-logo-blue text-[10px] sm:text-lg font-bold rounded-lg">
                             <ItemMenu
                             name="Get a quote!"
                             textColor="text-logo-blue"
@@ -63,7 +63,7 @@ export function Header() {
                 </svg>
             </button>
         <header className="text-center md:h-[150px] font-bold bg-white flex flex-row w-full min-w-[375px] items-center h-[190px]">
-            <div className="h-[100%] w-full max-w-6xl flex items-center justify-center">
+            <div className="h-[100%] w-full max-w-4xl flex items-center justify-center">
                 <Image className="h-full object-contain bg-cover min-w-[220px] animate-slow-pulse"
                     src= {Logo}
                     alt="Logo"
