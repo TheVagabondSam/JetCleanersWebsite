@@ -6,7 +6,7 @@ import Logo from "/public/assets/whitelogo.png"
 export function SectionBottom (){
     return(
         <div className="w-full h-full flex items-center justify-center  mt-10 sd:mt-2">
-            <div className="grid  justify-start sm:justify-center grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-[100%] px-1 sd:px-8 md:px-20 mx-1 sd:mx-8 md:mx-20 mt-4">
+            <div className="grid justify-start sm:justify-center grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-[100%] px-1 sm:px-8 md:px-20 mx-1 sm:mx-8 md:mx-20 mt-4">
                 <div className="flex justify-center md:justify-end min-w-40 w-full items-center h-full gap-4 ">
                     <Image className="min-w-44 w-60 h-auto"
                         src={Logo}
@@ -42,9 +42,9 @@ export function SectionBottom (){
                         </a>
                     </div>
                 </div>
-                <div className="text-center flex gap-4 w-full  h-full px-4  py-10 mt-2 sd:mt-10">
-                    <ul className=" items-start flex flex-col w-full mt-2text-center min-h-[20px] sm:min-h-[184px]">
-                        <li className="font-bold flex text-base sm:text-2xl sd:mt-4">
+                <div className="text-center flex gap-4 w-full h-full px-4  py-10 mt-2 sm:mt-8">
+                    <ul className="lg:items-start items-center  flex flex-col w-full mt-2 text-center min-h-[20px] sm:min-h-[184px]">
+                        <li className="font-bold flex text-base sm:text-2xl sm:mb-4">
                             <h1 className="py-2 px-4 items-center">
                                 Services
                             </h1>
@@ -57,9 +57,9 @@ export function SectionBottom (){
                         </li>
                     </ul>
                 </div>
-                <div className="text-center flex px-4 gap-4 w-full mt-0 sm:mt-10 h-full">
-                        <ul className="items-start flex flex-col w-full text-center">
-                            <li className="font-bold flex text-base sm:text-2xl mt-0 sm:mt-4">
+                <div className="text-center flex px-4 gap-4 w-full mt-2 py-10 sm:mt-8 h-full">
+                        <ul className="lg:items-start mb-2 items-center flex flex-col w-full text-center">
+                            <li className="font-bold flex text-base sm:text-2xl sm:mb-4">
                             <h1 className="py-2 px-4 items-center">
                                 Legal
                             </h1>
