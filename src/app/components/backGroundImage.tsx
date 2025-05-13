@@ -13,7 +13,7 @@ export function BackGroundImg() {
         </div>
     );
 };
-export function BackGroundImg2() {
+/* export function BackGroundImg2() {
     return (
         <div className="flex px-2 space-x-4 h-auto">
             <div className="border-white bg-cover bg-center bg-imgBackground2 min-h-screen z-0 w-full h-auto ">
@@ -26,7 +26,7 @@ export function BackGroundImg2() {
                 </div>
         </div>
     );
-};
+}; */
 
 export function BackGroundImg3() {
     return (
