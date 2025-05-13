@@ -24,7 +24,7 @@ export function SectionBottom (){
                             alt="Instagram Logo"
                             />
                         </a>
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/profile.php?id=61560469743127" target="_blank" rel="noopener noreferrer">
                             <Image className="w-20 min-w-12"
                             src="/assets/Face.svg"
                             width={40}

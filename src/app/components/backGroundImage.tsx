@@ -59,3 +59,14 @@ export function BackgroundImg4() {
         </div>
     )
 }
+
+export function BackgroundImg5() {
+    return (
+        <div className=" flex h-96 w-[100%]">
+            <div className="border-white bg-cover bg-center bg-imgBackground4 max-h-[35%] z-0 w-full">
+                <div className="border-white w-full  flex flex-col h-[100%]">
+                </div>
+            </div>
+        </div>
+    )
+}
