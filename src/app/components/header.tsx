@@ -62,7 +62,7 @@ export function Header() {
                     />
                 </svg>
             </button>
-        <header className="text-center md:h-[150px] font-bold bg-white flex flex-row w-full min-w-[375px] items-center h-[190px]">
+        <header className="text-center md:h-[150px] font-bold bg-white flex flex-row w-full min-w-[300px] items-center h-[190px]">
             <div className="h-[100%] w-full max-w-4xl flex items-center justify-center">
                 <Image className="h-full object-contain bg-cover min-w-[220px] animate-slow-pulse"
                     src= {Logo}
@@ -73,9 +73,9 @@ export function Header() {
                 
             </div>
                 <nav
-                    className={`${isOpen ? 'hidden' : 'hidden sm:flex'} flex flex-col text-center sm:flex sm:flex-row items-center sm:justify-center justify-start  md:gap-4 lg:gap-6 xl:gap-10 sm:gap-1 h-[100%] w-full `}
+                    className={`${isOpen ? 'hidden' : 'hidden sm:flex'} flex flex-col text-center sm:flex sm:flex-row items-center sm:justify-center justify-start md:gap-4 lg:gap-6 xl:gap-12 sm:gap-1 h-[100%] w-full `}
                 >
-                        <ItemMenu
+                        <ItemMenu 
                             name="Home" textColor="text-logo-blue"
                             href="/"    
                         />
@@ -83,14 +83,11 @@ export function Header() {
                             name="About us" textColor="text-logo-blue"
                             href="/AboutUsPage"
                         />
-                        <ItemMenu
-                            name="Services" textColor="text-logo-blue"
-                            href= "/servicesPage"
-                            />
                         <ItemMenu 
                             name="Contact" textColor="text-logo-blue"
                             href="/ContactUsPage"
                         />
+
                     </nav>
         </header>
             <div
@@ -107,7 +104,6 @@ export function Header() {
                 <nav className="flex justify-center items-center flex-col gap-6 text-xl">
                     <ItemMenu name="Home" href="/" />
                     <ItemMenu name="About us" href="/AboutUsPage" />
-                    <ItemMenu name="Services" href="/servicesPage" />
                     <ItemMenu name="Contact" href="/ContactUsPage" />
                 </nav>
             </div>
