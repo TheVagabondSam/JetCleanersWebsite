@@ -1,5 +1,38 @@
 
+
 export function BackGroundImg() {
+    return (
+        <div className="px-1 display-block h-auto">
+            <div className="h-full m-auto w-auto ">
+                <video className=" m-auto rounded-lg max-h-{200px} border-1 max-w-full justify-items-center" controls controlsList="nodownload" width={1100}>
+                <source
+                src="/assets/Jetcleanerpromo.mp4"
+                type="video/mp4"
+                />
+                Your browser does not support the video tag.
+                </video>
+
+            </div>
+
+        </div>
+    )
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* export function BackGroundImg() {
     return (
         <div className="flex px-1 h-auto">
             <div className="border-white bg-cover bg-center bg-imgBackground min-h-screen min-w-[320px] z-0 w-full h-auto ">
@@ -11,8 +44,8 @@ export function BackGroundImg() {
                 </span>
                 </div>
         </div>
-    );
-};
+    ); 
+}; */
 /* export function BackGroundImg2() {
     return (
         <div className="flex px-2 space-x-4 h-auto">
