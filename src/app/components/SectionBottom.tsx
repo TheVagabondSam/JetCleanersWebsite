@@ -68,18 +68,21 @@ export function SectionBottom (){
                                 <ItemMenu
                                 name="Terms and Conditions"
                                 textColor="text-logo-blue"
+                                href="/LegalPage"
                             />
                             </li>
                             <li>
                                 <ItemMenu
                                 name="Privacy Policy"
                                 textColor="text-logo-blue"
+                                href="/LegalPage"
                                 />
                             </li>
                             <li>
                                 <ItemMenu
                                 name="Cookie Policy"
                                 textColor="text-logo-blue"
+                                href="/LegalPage"
                                 />
                             </li>
                         </ul>

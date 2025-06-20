@@ -103,6 +103,8 @@ export default function ContactForm() {
         <option value="Weekly">Weekly</option>
         <option value="Monthly">Monthly</option>
         </select>
+        <input name="Frequency" type="text" placeholder="Please tell us the frequency if you prefer" value={formData.size} onChange={handleChange} className="w-full p-2 border rounded" />
+        
 
       {/* Access to Area */}
         <select name="access" value={formData.access} onChange={handleChange} required className="w-full p-2 border rounded">

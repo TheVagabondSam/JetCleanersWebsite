@@ -1,11 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const services =[
     {
         id: 1,
         title: "Exterior house washing",
-        description: "We clean the exterior of your home thoroughly.",
+        description: "We ensure the cleanliness of your home exterior by removing moss, mold, mildew, dirt, grime, soot or other undesireable aspects. We do this with or without chemical products and with a pressure-washer machine. Our chemicals ensure the longlasting aspect of your exterior by preventing the come-back of organic material for many more months than it would without.",
         image: "/assets/Exterior_House_Washing.png",
     },
     {
@@ -77,35 +76,32 @@ const services =[
 ];
 
 
-function generateSlug(text: string): string {
-    return text
-        .toLowerCase()
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/(^-|-$)/g, "");
-}
+export function SectionServices() {
+  return (
+    <div className="grid rounded-md mx-auto max-w-[1192px] grid-cols-1 md:grid-cols-2 p-1 xl:grid-cols-3 gap-8 h-full w-full">
+      <p className="font-bold text-4xl flex text-nowrap mx-auto w-full p-1 col-span-full text-dark-blue h-36">
+        Our Services
+      </p>
 
-    export function SectionServices() {
-    return (
-        <div className="grid rounded-md mx-auto max-w-[1192px] grid-cols-1 md:grid-cols-2 p-1 xl:grid-cols-3 gap-8 h-full w-[100%]">
-            <p className="font-bold text-4xl flex text-nowrap mx-auto w-[100%] p-1 col-span-full text-dark-blue h-36">
-            Our Services
-            </p>
-            {services.map((service) => (
-            <Link
-                key={service.id}
-                href={`/services/${generateSlug(service.title)}`}
-                className="flex flex-col transition-transform duration-200 hover:scale-105 "
-            >
-            <Image
-                className="border-2 object-cover border-logo-blue"
-                src={service.image}
-                alt={`Image for ${service.title}`}
-                width={600}
-                height={400}
-            />
-            <p className="pt-2 pb-2">{service.title}</p>
-            </Link>
-        ))}
+      {services.map((service) => (
+        <div
+          key={service.id}
+          className="group flex flex-col cursor-pointer transition-transform duration-200 hover:scale-105 border border-transparent hover:border-logo-blue rounded-md overflow-hidden"
+        >
+          <Image
+            className="border-2 object-cover border-logo-blue"
+            src={service.image}
+            alt={`Image for ${service.title}`}
+            width={600}
+            height={400}
+          />
+          <p className="pt-2  text-center">{service.title}</p>
+
+          <div className="max-h-0 p-2 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-300 overflow-hidden px-4 text-sm text-gray-700">
+            <p className="text-gray-800 p-2">{service.description}</p>
+          </div>
         </div>
-    );
+      ))}
+    </div>
+  );
 }

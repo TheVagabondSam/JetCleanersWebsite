@@ -73,21 +73,12 @@ export function Header() {
                 
             </div>
                 <nav
-                    className={`${isOpen ? 'hidden' : 'hidden sm:flex'} flex flex-col text-center sm:flex sm:flex-row items-center sm:justify-center justify-start md:gap-4 lg:gap-6 xl:gap-12 sm:gap-1 h-[100%] w-full `}
+                    className={`${isOpen ? 'hidden' : 'hidden sm:flex'} flex flex-col text-center sm:flex sm:flex-row items-center sm:justify-center justify-start h-[100%] w-full `}
                 >
-                        <ItemMenu 
+                        <ItemMenu
                             name="Home" textColor="text-logo-blue"
                             href="/"    
                         />
-                        <ItemMenu 
-                            name="About us" textColor="text-logo-blue"
-                            href="/AboutUsPage"
-                        />
-                        <ItemMenu 
-                            name="Contact" textColor="text-logo-blue"
-                            href="/ContactUsPage"
-                        />
-
                     </nav>
         </header>
             <div
@@ -101,10 +92,8 @@ export function Header() {
                     >
                         &times;
                     </button>
-                <nav className="flex justify-center items-center flex-col gap-6 text-xl">
+                <nav className="flex justify-center items-center flex-col gap-1 text-xl">
                     <ItemMenu name="Home" href="/" />
-                    <ItemMenu name="About us" href="/AboutUsPage" />
-                    <ItemMenu name="Contact" href="/ContactUsPage" />
                 </nav>
             </div>
         </div>

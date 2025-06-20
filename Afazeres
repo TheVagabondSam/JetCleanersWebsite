@@ -1,14 +1,11 @@
 /*
-Eliminar Residential and Commercial services, change to Our Services.
+Delete Our Services, make First Services a link that directs to Our services.
+When someone click/hover in our Services, make a text appear descrevendo as atividades.
+Cabecalho:
 
-Retirar: 
-Number of Windows.
-Highest Floor
-
-
-Required Informations like it is already.
-
-
+Home
+About us Vai virar Our Services
+Contact = Deleta
 
 
 Modificar: Company(If Applicable)
@@ -83,12 +80,7 @@ Gum removal:
 We easily remove chewing gum off of any surface with the use of machinery.
 
 
-Quote, IF applicable for COmmpany
 
-Other
 "barra de texto para a pessoa escrever o que for interesse em questao de regularidade."
 
-Size cant allow letters, just numbers.
 
-Remover Services como um todo.
-Remover foto do About us.

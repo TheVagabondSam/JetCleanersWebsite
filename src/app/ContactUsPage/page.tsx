@@ -1,6 +1,6 @@
 import ContactForm from "../components/ContactForm";
 import { Line } from "../components/Line";
-import { BackgroundImg4 } from "../components/backGroundImage";
+import { BackgroundImg4 } from "../components/backGroundVideo";
 
 
 export default function ServicesPage(){

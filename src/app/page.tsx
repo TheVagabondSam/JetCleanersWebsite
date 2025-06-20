@@ -2,19 +2,17 @@
 import { SectionHero } from "./components/SectionHero";
 import { Line } from "./components/Line";
 import { SectionServices } from "./components/SectionServices"
-import { SectionWhychoose } from "./components/SectionWhychoose"
-import { BackGroundImg } from "./components/backGroundImage";
+import { BackGroundVideo } from "./components/backGroundVideo";
 
 
 
 export default function Home() {
     return(
         <div>
-            <BackGroundImg />
+            <BackGroundVideo />
             <SectionHero />
             <Line />
             <SectionServices />
-            <SectionWhychoose />
         </div>
     )
 }
