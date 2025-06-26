@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+/* import { NextApiRequest, NextApiResponse } from 'next';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY); // sua chave na variável de ambiente
@@ -35,7 +35,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     try {
         await resend.emails.send({
-            from: 'Your site <contato@seudominio.com>', // o email verificado na Resend
+            from: 'Your site <>', // o email verificado na Resend
             to: ['thomazrussian@gmail.com'], // substitua pelo e-mail do dono do site
             subject: `Novo formulário recebido de ${name}`,
             html: `
@@ -60,4 +60,4 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     console.error('Error when sending e-mail:', error);
     return res.status(500).json({ error: 'Error when sending e-mail.' });
     }
-}
+} */
