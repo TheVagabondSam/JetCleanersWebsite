@@ -63,14 +63,13 @@ export function Header() {
                 </svg>
             </button>
         <header className="text-center md:h-[150px] font-bold bg-white flex flex-row w-full min-w-[300px] items-center h-[190px]">
-            <div className="h-[100%] w-full max-w-4xl flex items-center justify-center">
+            <div className="h-[100%] w-full max-w-7xl flex items-center justify-center">
                 <Image className="h-full object-contain bg-cover min-w-[220px] animate-slow-pulse"
                     src= {Logo}
                     alt="Logo"
                     width={200}
                     height={120}
                 />
-                
             </div>
                 <nav
                     className={`${isOpen ? 'hidden' : 'hidden sm:flex'} flex flex-col text-center sm:flex sm:flex-row items-center sm:justify-center justify-start h-[100%] w-full `}

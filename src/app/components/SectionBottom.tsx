@@ -6,12 +6,11 @@ import Logo from "/public/assets/whitelogo.png"
 export function SectionBottom (){
     return(
         <div className="w-full h-full flex items-center justify-center  mt-10 sd:mt-2">
-            <div className="grid justify-start sm:justify-center grid-cols-1  sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-[100%] px-1 sm:px-8 md:px-20 mx-1 sm:mx-8 md:mx-20 mt-4">
-                <div className="flex justify-center md:justify-end min-w-40 w-full items-center h-full gap-4 ">
+            <div className="grid justify-start sm:justify-center grid-cols-1  sm:grid-cols-1 lg:grid-cols-3 gap-4 w-full h-[100%] px-1 sm:px-8 md:px-20 mx-1 sm:mx-8 md:mx-20 mt-4">
+                <div className="flex justify-center lg:justify-end min-w-40 w-full items-center h-full gap-4 ">
                     <Image className="min-w-44 w-60 h-auto"
                         src={Logo}
                         alt="Logo"
-                        layout="intrinsic"
                     />
                 </div>
                 <div className="flex flex-col h-[100%] w-full px-4 gap-4 mt-6">
@@ -24,7 +23,7 @@ export function SectionBottom (){
                             alt="Instagram Logo"
                             />
                         </a>
-                        <a href="https://www.facebook.com/profile.php?id=61560469743127" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.facebook.com/people/Jet-Cleaners/61560511561313/" target="_blank" rel="noopener noreferrer">
                             <Image className="w-20 min-w-12"
                             src="/assets/Face.svg"
                             width={40}
@@ -41,21 +40,6 @@ export function SectionBottom (){
                             />
                         </a>
                     </div>
-                </div>
-                <div className="text-center flex gap-4 w-full h-full px-4  py-10 mt-2 sm:mt-8">
-                    <ul className="lg:items-start items-center  flex flex-col w-full mt-2 text-center min-h-[20px] sm:min-h-[184px]">
-                        <li className="font-bold flex text-base sm:text-2xl sm:mb-4">
-                            <h1 className="py-2 px-4 items-center">
-                                Services
-                            </h1>
-                        </li>
-                        <li className="text-sm">
-                            <ItemMenu
-                            name="Our Services"
-                            textColor="text-logo-blue"
-                            />
-                        </li>
-                    </ul>
                 </div>
                 <div className="text-center flex px-4 gap-4 w-full mt-2 py-10 sm:mt-8 h-full">
                         <ul className="lg:items-start mb-2 items-center flex flex-col w-full text-center">
@@ -75,14 +59,14 @@ export function SectionBottom (){
                                 <ItemMenu
                                 name="Privacy Policy"
                                 textColor="text-logo-blue"
-                                href="/LegalPage"
+                                href="/PrivacyPage"
                                 />
                             </li>
                             <li>
                                 <ItemMenu
                                 name="Cookie Policy"
                                 textColor="text-logo-blue"
-                                href="/LegalPage"
+                                href="/CookiePage"
                                 />
                             </li>
                         </ul>

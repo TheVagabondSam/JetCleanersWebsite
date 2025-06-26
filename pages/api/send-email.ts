@@ -7,6 +7,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (req.method !== 'POST') {
         return res.status(405).json({ error: 'Method not available' });
     }
+    const sanitize = (str: string) =>
+        str.replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\n/g, "<br/>");
+
 
     const {
         name,
@@ -20,9 +23,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         access,
         message,
     } = req.body;
+    
 
-    if (!name || !address || !phone || !service) {
-        return res.status(400).json({ error: 'All fields are required.' });
+    const requiredFields = { name, address, phone, service, gardenTap, frequency, access };
+
+    for (const [key, value] of Object.entries(requiredFields)) {
+        if (!value) return res.status(400).json({ error: `Missing required field: ${key}` });
+}
+
     }
 
     try {
@@ -41,7 +49,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             <p><strong>Frequency:</strong> ${frequency}</p>
             <p><strong>Size:</strong> ${size}</p>
             <p><strong>Access to Area:</strong> ${access}</p>
-            <p><strong>Message:</strong><br/> ${message.replace(/\n/g, '<br/>')}</p>
+            <p><strong>Message:</strong><br/> ${sanitize(message)}</p>
+
         `,
         });
     

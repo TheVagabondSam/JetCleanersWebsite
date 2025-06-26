@@ -9,13 +9,13 @@ export function SectionTerms() {
                     TERMS AND CONDITIONS 
                 </h1>
                 <h2 className="text-center">
-                    Last updated: 03/10/2021
+                    Last updated: 25/06/2025
                 </h2>
                 <div className="flex w-[100%] wrap-anywhere h-[100%] justify-center m-auto text-logo-blue p-1">
                         
                         <div className="flex-1 text-gray-800 space-y-1 text-justify text-wrap justify-center w-full h-full text-sm leading-relaxed">
                         <p>
-                            Please read these Terms of Use (“Terms”, “Terms of Use”) carefully before using the jaysjetting.co.uk website (the “Service”) operated by Jays Jetting Ltd (“us”, “we”, or “our”).
+                            Please read these Terms of Use (“Terms”, “Terms of Use”) carefully before using the jetcleaners.uk website (the “Service”) operated by Jet Cleaners Ltd (“us”, “we”, or “our”).
                             Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.
                             These Terms apply to all visitors, users and others who access or use the Service.
                         </p>
@@ -26,7 +26,7 @@ export function SectionTerms() {
                             Intellectual Property
                         </h2>
                         <p>
-                            The Service and its original content, features and functionality are and will remain the exclusive property of Jays Jetting Ltd and its licensors.
+                            The Service and its original content, features and functionality are and will remain the exclusive property of Jet Cleaners Ltd and its licensors.
                         </p>                        
                         <h2 className="text-black">
                             Links To Other Web Sites
@@ -37,7 +37,7 @@ export function SectionTerms() {
                     
                         <p>
                             Jet Cleaners Ltd has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third party web sites or services. You further acknowledge
-                            and agree that Jays Jetting Ltd shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in 
+                            and agree that Jet Cleaners Ltd shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in 
                             connection with use of or reliance on any such content, goods or services available on or through any such web sites or services.
                         </p>
                         <p>
