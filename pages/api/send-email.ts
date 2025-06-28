@@ -1,4 +1,4 @@
-/* import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from 'next';
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY); // sua chave na variável de ambiente
@@ -29,14 +29,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     for (const [key, value] of Object.entries(requiredFields)) {
         if (!value) return res.status(400).json({ error: `Missing required field: ${key}` });
-}
+        }
 
-    }
 
     try {
         await resend.emails.send({
-            from: 'Your site <>', // o email verificado na Resend
-            to: ['thomazrussian@gmail.com'], // substitua pelo e-mail do dono do site
+            from: 'Jet Cleaners Website <@>', // o email verificado na Resend
+            to: ['Jetcleaners.queries@outlook.com'], // substitua pelo e-mail do dono do site
             subject: `Novo formulário recebido de ${name}`,
             html: `
             <h2>Informações do Formulário:</h2>
@@ -55,9 +54,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         });
     
 
-    return res.status(200).json({ success: true });
+        return res.status(200).json({ success: true });
     } catch (error) {
-    console.error('Error when sending e-mail:', error);
-    return res.status(500).json({ error: 'Error when sending e-mail.' });
+        console.error('Error when sending e-mail:', error);
+        return res.status(500).json({ error: 'Error when sending e-mail.' });
     }
-} */
+}
+
