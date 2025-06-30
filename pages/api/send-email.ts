@@ -35,7 +35,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     try {
         await resend.emails.send({
             from: 'Jet Cleaners Website <contact@jetcleaners.uk>', // o email verificado na Resend
-            to: ['Thomazrussian@gmail.com'], 
+            to: ['Jetcleaners.queries@outlook.com'], 
             subject: `Novo formulário recebido de ${name}`,
             html: `
             <h2>Informações do Formulário:</h2>
