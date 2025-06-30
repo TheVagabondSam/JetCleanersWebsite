@@ -134,7 +134,7 @@ export default function ContactForm() {
             onChange={handleChange} 
             required 
             className="w-full p-2 border rounded">
-            <option value="">Select Service Required</option>
+            <option value="">Select Desired Service - Required</option>
             <option value="Bins Cleaning">Bins Cleaning</option>
             <option value="Brick Cleaning">Brick Cleaning</option>
             <option value="Decks and Fences Cleaning">Decks and Fences Cleaning</option>
@@ -190,7 +190,7 @@ export default function ContactForm() {
             <option value="Other (Explain Below)">Other (Explain Below)</option>
         </select>
 
-        <input name="clarify" type="text" placeholder="Clarify acess to area further" value={formData.clarify} onChange={handleChange} className="w-full p-2 border rounded" />
+        <input name="clarify" type="text" placeholder="Clarify access to area further" value={formData.clarify} onChange={handleChange} className="w-full p-2 border rounded" />
 
         <input name="size" type="text" placeholder="Size (Square Metres) - If you know" value={formData.size} onChange={handleChange} className="w-full p-2 border rounded" />
 
