@@ -15,6 +15,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         name,
         address,
         phone,
+        email,
         company,
         service,
         gardenTap,
@@ -25,7 +26,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     } = req.body;
     
 
-    const requiredFields = { name, address, phone, service, gardenTap, frequency, access };
+    const requiredFields = { name, address, phone, email, service, gardenTap, access };
 
     for (const [key, value] of Object.entries(requiredFields)) {
         if (!value) return res.status(400).json({ error: `Missing required field: ${key}` });

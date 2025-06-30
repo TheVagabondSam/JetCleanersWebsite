@@ -6,12 +6,14 @@ export default function ContactForm() {
     name: '',
     address: '',
     phone: '',
+    email: '',
     company: '',
     service: '',
     gardenTap: '',
     frequency: '',
     size: '',
     access: '',
+    clarify: '',
     message: '',
     frequencynote: '',
 });
@@ -41,12 +43,14 @@ export default function ContactForm() {
             name: '',
             address: '',
             phone: '',
+            email: '',
             company: '',
             service: '',
             gardenTap: '',
             frequency: '',
             size: '',
             access: '',
+            clarify: '',
             message: '',
             frequencynote: '',
         });
@@ -109,6 +113,14 @@ export default function ContactForm() {
             required 
             className="w-full p-2 border rounded" />
         <input 
+            name="email" 
+            type="email" 
+            placeholder="Email - Required" 
+            value={formData.email} 
+            onChange={handleChange} 
+            required
+            className="w-full p-2 border rounded" />
+        <input 
             name="company" 
             type="text" 
             placeholder="Company" 
@@ -143,7 +155,7 @@ export default function ContactForm() {
             onChange={handleChange} 
             required
             className="w-full p-2 border rounded">
-            <option value="">Garden Tap?</option>
+            <option value="">Garden Tap? - Required</option>
             <option value="Yes">Yes</option>
             <option value="No">No</option>
         </select>
@@ -151,16 +163,17 @@ export default function ContactForm() {
       {/* One Off or Regular */}
         <select name="frequency" 
             value={formData.frequency} 
-            onChange={handleChange}  
+            onChange={handleChange} 
             className="w-full p-2 border rounded">
             <option value="">One Off or Regular?</option>
             <option value="One off">One off</option>
             <option value="Weekly">Weekly</option>
             <option value="Monthly">Monthly</option>
+            <option value="Other (Explain Below)">Other (Explain Below)</option>
         </select>
 
         <textarea name="frequencynote" 
-            placeholder="Please tell us the frequency if you prefer" 
+            placeholder="Please tell us the frequency" 
             value={formData.frequencynote} 
             onChange={handleChange} rows={2} 
             className="w-full p-2 border rounded" />
@@ -170,13 +183,16 @@ export default function ContactForm() {
             value={formData.access} 
             onChange={handleChange} 
             className="w-full p-2 border rounded">
-            <option value="">Access to Area</option>
+            <option value="">Access to Area - Required</option>
             <option value="Side gate">Side gate</option>
             <option value="Back of the property">Back of the property</option>
             <option value="Through property">Through property</option>
+            <option value="Other (Explain Below)">Other (Explain Below)</option>
         </select>
 
-        <input name="size" type="text" placeholder="Size (Square Metres)" value={formData.size} onChange={handleChange} className="w-full p-2 border rounded" />
+        <input name="clarify" type="text" placeholder="Clarify acess to area further" value={formData.clarify} onChange={handleChange} className="w-full p-2 border rounded" />
+
+        <input name="size" type="text" placeholder="Size (Square Metres) - If you know" value={formData.size} onChange={handleChange} className="w-full p-2 border rounded" />
 
         <textarea name="message" placeholder="Leave us a Message" value={formData.message} onChange={handleChange} rows={4} className="w-full p-2 border rounded" />
 
