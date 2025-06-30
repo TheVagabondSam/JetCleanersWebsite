@@ -39,7 +39,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             to: ['Jetcleaners.queries@outlook.com'], 
             subject: `Novo formulário recebido de ${name}`,
             html: `
-            <h2>Informações do Formulário:</h2>
+            <h2>Inquiry:</h2>
             <p><strong>Name:</strong> ${name}</p>
             <p><strong>Address:</strong> ${address}</p>
             <p><strong>Phone:</strong> ${phone}</p>

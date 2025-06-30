@@ -38,7 +38,7 @@ export default function ContactForm() {
 });
 
     if (res.ok) {
-        setStatus('Mensagem enviada com sucesso!');
+        setStatus('Sent Successfully!');
         setFormData({
             name: '',
             address: '',
