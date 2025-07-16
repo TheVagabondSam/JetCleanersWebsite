@@ -3,6 +3,7 @@ import { Lato } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/header";
 import { SectionBottom } from "./components/SectionBottom";
+import { Analytics } from "@vercel/analytics/next"
 
 const lato = Lato({
   subsets: ['latin'],
@@ -25,6 +26,7 @@ export default function RootLayout({
           <Header />
           {children}
           <SectionBottom />
+          <Analytics />
       </body>
     </html>
   );
