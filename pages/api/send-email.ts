@@ -43,6 +43,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             <p><strong>Name:</strong> ${name}</p>
             <p><strong>Address:</strong> ${address}</p>
             <p><strong>Phone:</strong> ${phone}</p>
+            <p><strong>Email:</strong> ${email}</p>
             <p><strong>Company:</strong> ${company}</p>
             <p><strong>Service Required:</strong> ${service}</p>
             <p><strong>Garden Tap:</strong> ${gardenTap}</p>
